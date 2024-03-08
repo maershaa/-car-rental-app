@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/car-rental-app/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "format": "prettier --write ./src",
-    "deploy": "vite build && gh-pages -d dist"
+    "format": "prettier --write ./src"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
