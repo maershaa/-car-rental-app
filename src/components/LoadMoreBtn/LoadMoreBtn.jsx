@@ -4,7 +4,7 @@ import { StyledLoadMoreBtn } from "./StyledLoadMoreBtn";
 const LoadMoreBtn = () => {
   return (
 <StyledLoadMoreBtn>
-<a href="" className='loadMoreBtn'>LoadMoreBtn</a>
+<a href="" className='loadMoreBtn'>Load More </a>
 
 </StyledLoadMoreBtn>
   )

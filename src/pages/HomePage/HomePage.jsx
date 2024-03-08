@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import CarsList from "../../components/CarsList/CarsList";
 import { Loader } from "../../components/Loader/Loader";
 import { StyledHomePage } from "./StyledHomePage";
-import { LoadMoreBtn } from "../../components/LoadMoreBtn/LoadMoreBtn";
+import  LoadMoreBtn  from "../../components/LoadMoreBtn/LoadMoreBtn";
 
 import {
   selectError,
