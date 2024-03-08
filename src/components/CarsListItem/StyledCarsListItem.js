@@ -28,7 +28,6 @@ export const StyledCarsListItem = styled.li`
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 8px;
-
   }
   .details {
     margin: 0;
@@ -38,16 +37,11 @@ export const StyledCarsListItem = styled.li`
     line-height: 150%;
     color: var(--primary-text-color);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-
   }
-
-
-
 
   .model {
     font-weight: bold;
     color: #3470ff;
-    
   }
 
   .cost {
