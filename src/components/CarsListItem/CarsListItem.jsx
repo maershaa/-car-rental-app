@@ -38,8 +38,8 @@ const CarsListItem = ({
         {formatAddress(address)} | {rentalCompany} | {type} | {model} | {id} |{" "}
         {functionalities[0]}
       </p>
-
-      <a href="#" target="_blank" rel="noopener noreferrer" className="LearnMoreLink">
+//!
+      <a href="https://www.youtube.com/watch?v=XQHu4UUc9-A&list=PLViULGko0FdhZ99yYnqB64F_4nVyvOPH5&index=8" target="_blank" rel="noopener noreferrer" className="LearnMoreLink">
         Learn More
       </a>
     </StyledCarsListItem>
